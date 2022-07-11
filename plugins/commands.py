@@ -25,7 +25,7 @@ async def start(client, message: pyrogram.types.Message):
 
     if message.chat.type in ['group', 'supergroup']:
         buttons = [[
-        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
+        InlineKeyboardButton('ʙᴏᴛ ᴏᴡɴᴇʀ', url=f'https://t.me/thilak2003') ] ,
       [
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
         InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
@@ -71,7 +71,7 @@ async def start(client, message: pyrogram.types.Message):
     if len(message.command) != 2:
 
         buttons = [[
-        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
+        InlineKeyboardButton('ʙᴏᴛ ᴏᴡɴᴇʀ', url=f'https://t.me/thilak2003') ] ,
       [
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
         InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
@@ -112,7 +112,7 @@ async def start(client, message: pyrogram.types.Message):
             btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"{pre}#{file_id}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**🗣 In Order To Get The Movie Requested By You in Our Group, You Must Have To Join Our Official Channel First By Clicking (📢 Join Channel 📢) Button.🗣 After That, Click --(🔄 Try Again 🔄)-- Button And Start. I'll Send You That Movie File📂**",
+            text="**🗣 𝙄𝙣 𝙊𝙧𝙙𝙚𝙧 𝙏𝙤 𝙂𝙚𝙩 𝙏𝙝𝙚 𝙈𝙤𝙫𝙞𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙙 𝘽𝙮 𝙔𝙤𝙪 𝙞𝙣 𝙊𝙪𝙧 𝙂𝙧𝙤𝙪𝙥, 𝙔𝙤𝙪 𝙈𝙪𝙨𝙩 𝙃𝙖𝙫𝙚 𝙏𝙤 𝙅𝙤𝙞𝙣 𝙊𝙪𝙧 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙁𝙞𝙧𝙨𝙩 𝘽𝙮 𝘾𝙡𝙞𝙘𝙠𝙞𝙣𝙜 (📢 𝙅𝙤𝙞𝙣 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 📢) 𝘽𝙪𝙩𝙩𝙤𝙣.🗣 𝘼𝙛𝙩𝙚𝙧 𝙏𝙝𝙖𝙩, 𝘾𝙡𝙞𝙘𝙠 --(🔄 𝙏𝙧𝙮 𝘼𝙜𝙖𝙞𝙣 🔄)-- 𝘽𝙪𝙩𝙩𝙤𝙣 𝘼𝙣𝙙 𝙎𝙩𝙖𝙧𝙩. 𝙄'𝙡𝙡 𝙎𝙚𝙣𝙙 𝙔𝙤𝙪 𝙏𝙝𝙖𝙩 𝙈𝙤𝙫𝙞𝙚 𝙁𝙞𝙡𝙚📂**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
@@ -121,7 +121,7 @@ async def start(client, message: pyrogram.types.Message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
 
         buttons = [[
-        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
+        InlineKeyboardButton('ʙᴏᴛ ᴏᴡɴᴇʀ', url=f'https://t.me/thilak2003') ] ,
       [
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
         InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
